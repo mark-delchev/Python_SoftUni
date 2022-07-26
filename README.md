@@ -1,2 +1,2 @@
 # Python_SoftUni
-Programming courses in SoftUni
+Python Programming courses in SoftUni (https://softuni.bg/)
