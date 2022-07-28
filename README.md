@@ -1,6 +1,11 @@
 # Python_SoftUni
-Python Programming courses in SoftUni (https://softuni.bg/) Topics covered:
-1. For loops
-2. While loops
-3. Nested loops
-4. Conditional statements
+Homework from Python Programming courses in SoftUni (https://softuni.bg/) 
+<p>Finished courses:</p>
+
+1. Programming Basics with Python <a href="https://softuni.bg/certificates/details/137587/ee253c27">certificate</a>
+
+<p>Topics covered:</p>
+<li>Conditional statements</li>
+<li>For loops</li>
+<li>While loops</li>
+<li>Nested loops</li>
