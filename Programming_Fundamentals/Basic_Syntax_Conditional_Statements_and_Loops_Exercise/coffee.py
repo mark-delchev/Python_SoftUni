@@ -7,7 +7,7 @@ while True:
     if event == "END":
         break
     if event.lower() == "cat" or event.lower() == "coding" or event.lower() == "dog" or event.lower() == "movie":
-        if event.isupper() == True:
+        if event.isupper():
             coffee_needed += 2
         else:
             coffee_needed += 1
