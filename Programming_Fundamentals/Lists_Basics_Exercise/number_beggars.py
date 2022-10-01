@@ -1,15 +1,24 @@
-lst = list(input().split(sep=", "))
-beggars_lst = [0] * int(input())
+lst = input().split(sep=", ")
+lst_int = [eval(i) for i in lst]
 
-for i in range(len(lst)):
-    for j in range(len(beggars_lst)):
-        try:
-            if int(lst[i]) % int(beggars_lst[j]) == 0:
-                beggars_lst[j] = (int(lst[i]) + int(lst[i + 2]))
-        except IndexError:
-            break
+beggars = int(input())
+beggars_lst = []
+counter = 0
+
+
+while counter < beggars:
+    current_beggar = 0
+    for i in range(counter, len(lst_int), beggars):
+        current_beggar += lst_int[i]
+    beggars_lst.append(current_beggar)
+    counter += 1
+
+            
+
 
 print(beggars_lst)
+
+
 
 
 
