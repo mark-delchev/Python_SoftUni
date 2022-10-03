@@ -13,4 +13,3 @@ for i in num_lst:
         print(int(i))
     else:
         print(int(i), end=", ")
-print()
