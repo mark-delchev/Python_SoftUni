@@ -6,3 +6,5 @@ w = int(input())
 h = int(input())
 
 print(rectangle(w, h))
+
+#comment
