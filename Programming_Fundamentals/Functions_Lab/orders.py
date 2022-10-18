@@ -1,15 +1,19 @@
 
-product = input()
-quantity = int(input())
+def total_price(bought, quantity):
+    if bought == "coffee":
+        result = 1.50 * quantity
+    elif bought == "water":
+        result = 1.00 * quantity
+    elif bought == "coke":
+        result = 1.40 * quantity
+    elif bought == "snacks":
+        result = 2.00 * quantity
+    else:
+        result = None
 
-if product == "coffee":
-    price = 1.50
-elif product == "water":
-    price = 1.00
-elif product == "coke":
-    pice = 1.40
-elif product == "snacks":
-    price = 2.00
-final_price = price * quantity
-print(f"{final_price:.2f}")
+    print(f"{result:.2f}")
 
+    
+bought = input()
+quantity = float(input())
+total_price(bought, quantity)
