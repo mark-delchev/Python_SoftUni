@@ -11,8 +11,11 @@ while True:
     elif command[0] == "Bonus phone":
         bonus_phones = command[1]
         lst_bonus_phones = bonus_phones.split(":")
-        if lst_bonus_phones[0] in phones:
-            phones.append(lst_bonus_phones[1])
+        old_phone = lst_bonus_phones[0]
+        new_phone = lst_bonus_phones[1]
+        if old_phone in phones:
+            position = phones.index(old_phone)
+            phones.insert(position + 1, new_phone)
     elif command[0] == "Remove":
         if command[1] in phones:
             phones.remove(command[1])
