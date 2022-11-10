@@ -4,6 +4,7 @@ class Comment:
         self.content = content
         self.likes = likes
 
+
 comment = Comment("user1", "I like this book", 87)
 print(comment.username)
 print(comment.content)
