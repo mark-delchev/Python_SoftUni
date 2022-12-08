@@ -25,7 +25,7 @@ while True:
                         except ValueError:
                             pass
                 else:
-                    print(f"{commands[1]} doesn't have the {commands[2]} in his/her collection.")
+                    print(f"{commands[1]} doesn't have                 the {commands[2]} in his/her collection.")
 
 for key, value in liked_meals.items():
     print(f"{key}: {', '.join(value)}")
